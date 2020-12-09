@@ -22,15 +22,26 @@ p {
 	color: #a61827;
 }
 
+#message{
+	padding-bottom: 10%;
+}
+
 button{
 	color: #fefafa;
 	background-color: #a61827;
 	width: 25%;
-    padding: 2%;
+  padding: 2%;
 	font-size: 80%;
 }
 
 button:hover {
 	color: #fefafa;
 	background-color: #345e2a;
+}
+
+footer{
+	color: #fefafa;
+	background-color: #345e2a;
+	text-align: center;
+	width: 100%;
 }
