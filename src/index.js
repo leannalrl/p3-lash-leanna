@@ -14,7 +14,6 @@ class App{
       <br>
       <button class="button primary" id="lunch" onclick="GetLunch();">Get Lunch</button>
       <p id="message"></p>
-      <p id="message"></p>
       <footer>${footer.footercontent}</footer>
     `;
 
