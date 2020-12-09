@@ -2,9 +2,12 @@ class LunchGenerator{
   constructor(lunchContent){
     this.lunchContent = lunchContent;
   }
+  button_action(){
+    document.getElementById("lunch").addEventListener("click", ()=> {
+        document.getElementById("message").innerHTML = GetLunch();
+    });
+  }
 }
-
-export const lunch = new LunchGenerator();
 
 let lunchlist = [{
     idLunch: 1,
@@ -62,5 +65,9 @@ let lunchlist = [{
 function GetLunch() {
   var random_num = Math.floor(Math.random() * lunchlist.length);
   var random =  lunchlist[random_num].lunchName + "<br>" + lunchlist[random_num].lunchingredients;
-  document.getElementById("message").innerHTML = random;
+  // document.getElementById("message").innerHTML = random;
+  return random;
 }
+
+let lunchContent = GetLunch();
+export const lunch = new LunchGenerator(lunchContent);

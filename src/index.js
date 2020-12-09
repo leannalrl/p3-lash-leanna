@@ -5,6 +5,7 @@ import {footer} from './modules/footer';
 class App{
   constructor(){
     this.renderTemplate();
+    lunch.button_action();
   }
 
   renderTemplate(){
@@ -12,8 +13,8 @@ class App{
       <h1>${header.title}</h1>
       <img id="logo" src="images/logo.png" alt="logo">
       <br>
-      <button class="button primary" id="lunch" onclick="GetLunch();">Get Lunch</button>
-      <p id="message"></p>
+      <button class="button primary" id="lunch">Get Lunch</button>
+      <p id="message">${lunch.lunchContent}</p>
       <footer>${footer.footercontent}</footer>
     `;
 
