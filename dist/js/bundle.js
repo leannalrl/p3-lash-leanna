@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=new class{constructor(t){this.title=t}}("ES6 App"),e=new class{constuctor(t){this.footerContent=t}}("This is my Footer.");new class{constructor(){this.renderTemplate()}renderTemplate(){const o=`\n      <h1>${t.title}</h1>\n      <footer>${e.footerContent}</footer>\n    `;document.body.innerHTML=o}}})();
