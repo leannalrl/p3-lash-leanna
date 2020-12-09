@@ -1,7 +1,7 @@
 class Footer{
-  constuctor (footerContent){
-    this.footerContent = footerContent;
+  constructor(footercontent){
+    this.footercontent = footercontent;
   }
 }
 
-export const footer = new Footer('This is my Footer.');
+export const footer = new Footer('This is my footer');
