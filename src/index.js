@@ -9,7 +9,7 @@ class App{
   renderTemplate(){
     const template = `
       <h1>${header.title}</h1>
-      <footer>${footer.footerContent}</footer>
+      <footer>${footer.footercontent}</footer>
     `;
 
     document.body.innerHTML = template;
