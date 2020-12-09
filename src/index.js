@@ -1,5 +1,5 @@
 import {header} from './modules/header';
-import {lunchlist} from './modules/lunch-generator';
+import {lunch} from './modules/lunch-generator';
 import {footer} from './modules/footer';
 
 class App{
@@ -14,7 +14,7 @@ class App{
       <br>
       <button class="button primary" id="lunch" onclick="GetLunch();">Get Lunch</button>
       <p id="message"></p>
-      <p>${lunchlist.lunch}</p>
+      <p id="message"></p>
       <footer>${footer.footercontent}</footer>
     `;
 
