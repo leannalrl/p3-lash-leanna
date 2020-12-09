@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	min-height: 100vh;
+}
+
+img{
+	width: 40%;
+}
+
+p {
+	padding-top: 6%;
+	text-align: center;
+	font-family: Libre Baskerville;
+	color: #a61827;
+}
+
+button{
+	color: #fefafa;
+	background-color: #a61827;
+	width: 25%;
+    padding: 2%;
+	font-size: 80%;
+}
+
+button:hover {
+	color: #fefafa;
+	background-color: #345e2a;
+}
