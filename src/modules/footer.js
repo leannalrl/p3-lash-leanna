@@ -4,4 +4,4 @@ class Footer{
   }
 }
 
-export const footer = new Footer('This is my footer');
+export const footer = new Footer('Christmas Lunch Generator 2020');
