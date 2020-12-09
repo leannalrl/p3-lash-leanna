@@ -4,4 +4,4 @@ class Header{
   }
 }
 
-export const header = new Header('Christmas Lunch Generator');
+export const header = new Header('Holidays can be stressful, so let your generator decided you lunch for you!');
