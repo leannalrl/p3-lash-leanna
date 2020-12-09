@@ -1,3 +1,9 @@
+class LunchGenerator{
+  constructor(lunch){
+    this.lunch = lunch;
+  }
+}
+
 let lunchlist = [{
     idLunch: 1,
     lunchName: 'Ham Sandwich',
@@ -56,3 +62,6 @@ function GetLunch() {
   var random =  lunchlist[random_num].lunchName + "<br>" + lunchlist[random_num].lunchingredients;
   document.getElementById("message").innerHTML = random;
 }
+
+
+export const lunchlist = new LunchGenerator('Christmas Lunch Generator 2020');
