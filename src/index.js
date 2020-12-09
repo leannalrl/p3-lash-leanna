@@ -1,4 +1,5 @@
 import {header} from './modules/header';
+import {lunchlist} from './modules/lunch-generator';
 import {footer} from './modules/footer';
 
 class App{
@@ -9,6 +10,11 @@ class App{
   renderTemplate(){
     const template = `
       <h1>${header.title}</h1>
+      <img id="logo" src="images/logo.png" alt="logo">
+      <br>
+      <button class="button primary" id="lunch" onclick="GetLunch();">Get Lunch</button>
+      <p id="message"></p>
+      <p>${lunchlist.lunch}</p>
       <footer>${footer.footercontent}</footer>
     `;
 
