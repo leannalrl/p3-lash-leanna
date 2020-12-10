@@ -4,7 +4,7 @@ class Header{
   }
 }
 
-export const header = new Header('Holidays can be stressful, so let your generator decided you lunch for you!');
+export const header = new Header('Holidays can be stressful, so let our generator decided what you eat for lunch!');
 
 class Introduction{
   constuctor(hello_you){
